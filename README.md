@@ -75,7 +75,7 @@ These are all the individual documents describing each small piece of protocol t
 [zbd]: https://zebedee.io/wallet
 [zeus]: https://zeusln.app
 
-Services
+Services +<tag>
 --------
 
 | Name                                                                                                | LUDs                                                           |

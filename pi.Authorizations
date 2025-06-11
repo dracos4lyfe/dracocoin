@@ -1,0 +1,73 @@
+{
+  "networkBoostCode": "NEOGROWTH-V5-PI-CASH-CB-DATAAUTH-TAGGED",
+
+  "+[PROTOCOL]": {
+    "name": "ProofOfValue v6.0",
+    "focus": "Behavioral validation + data-backed trust",
+    "launchYear": 2025
+  },
+
+  "+[INTEGRATIONS]": {
+    "minepi.com": {
+      "walletAuth": true,
+      "api": "https://api.minepi.com/auth-connect",
+      "reward": "0.85 PI per verified ID",
+      "tags": ["identity", "mobile", "node"]
+    },
+    "coinbase": {
+      "exchangeListing": true,
+      "stakingIntegration": true,
+      "authorization": {
+        "type": "OAuth2",
+        "requiredScopes": ["wallet:read", "transactions"],
+        "KYCVerification": true
+      },
+      "airdropBonus": "0.85% of monthly mint to verified users"
+    },
+    "cashapp": {
+      "walletLink": true,
+      "boostProgram": "0.85% cashback in native token",
+      "dataUsage": ["transaction trends", "identity sync"],
+      "authLink": true
+    }
+  },
+
+  "+[REWARDS]": {
+    "stakingYield": "13.85% APY",
+    "referral": {
+      "inviter": "8.5%",
+      "invitee": "6.5%",
+      "KYCBoost": "x1.25"
+    },
+    "activityMultiplier": "up to 2x",
+    "airdropSchedule": {
+      "monthly": true,
+      "supplyCap": "850,000 tokens per quarter"
+    }
+  },
+
+  "+[TOKENOMICS]": {
+    "totalSupply": 108_500_000,
+    "circulating": 72_000_000,
+    "burnRate": "0.85% per transaction",
+    "mintCap": "0.85% yearly",
+    "reserve": "DAO locked (18.5M tokens)"
+  },
+
+  "+[AUTHORIZATION]": {
+    "crossPlatformID": true,
+    "authMethods": ["Pi Login", "CashApp ID", "Coinbase OAuth2"],
+    "userControl": {
+      "dataViewable": true,
+      "consentEditable": true,
+      "authorizationLogs": true
+    }
+  },
+
+  "+[DATA]": {
+    "dataDrivenIncentives": true,
+    "marketplaceLaunch": "Q1 2026",
+    "userPrivacy": {
+      "zeroKnowledgeProofs": true,
+      "revokableSharing": true
+    },

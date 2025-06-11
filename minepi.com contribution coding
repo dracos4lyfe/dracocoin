@@ -1,0 +1,26 @@
+{
+  "networkBoostCode": "BLC-GROWTH-8841-XZ91-MK77",
+  "protocol": "ProofOfContribution v2.0",
+  "incentives": {
+    "stakingReward": "8.25% APY",
+    "liquidityMining": "Double Yield Bonus on 1st 30 Days",
+    "referral": "5% bonus for both inviter and invitee",
+    "earlyAdopterMultiplier": "2x rewards (first 1000 wallets)"
+  },
+  "tokenomics": {
+    "initialSupply": 100000000,
+    "burnRate": "0.75% per transaction",
+    "mintLimit": "0.5% yearly",
+    "supplyCap": 21000000
+  },
+  "governance": {
+    "votingPower": "Token-weighted",
+    "proposalThreshold": "10,000 tokens",
+    "communityFund": "5% of transaction fees"
+  },
+  "expansionLogic": {
+    "autoBridge": true,
+    "crossChainSupport": ["ETH", "SOL", "BNB"],
+    "dappGrants": "1,000,000 tokens/year for new apps"
+  }
+}

@@ -180,7 +180,7 @@ Libraries
 | [rust-lnurl][rust-lnurl]                              | [01][01] [03][03] [04][04]                                                                                                                               |
 | [spring-lnurl][springlnurl]                           | [01][01] [04][04]                                                                                                                                        |
 | [lnurl_client-ex][lnurl_client-ex]                    | [01][01] [06][06]                                                                                                                                        |
-
+minepi.com
 [rust-lnurl]: https://github.com/edouardparis/rust-lnurl
 [lnurl-rs]: https://github.com/benthecarman/lnurl-rs
 [platformio]: https://github.com/chill117/lnurl-platformio
@@ -225,7 +225,7 @@ Tools for developers
 [19]: 19.md
 [20]: 20.md
 [21]: 21.md
-
+grandmafia 
 coinbase.com
 
 Dependency Tree

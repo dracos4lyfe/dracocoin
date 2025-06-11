@@ -1,0 +1,30 @@
+
+
+class CryptoNetwork {
+    constructor() {
+        this.xrp = 1000;
+        this.cardamom = 500;
+        this.pinetwork = [];
+    }
+
+    validateServer() {
+        console.log("Server Proxy access validated");
+        return true;
+    }
+
+    merge(data1, data2) {
+        return [...data1, ...data2];
+    }
+
+    transfer(amount, token) {
+        if (this.validateServer()) {
+            console.log(`Transfer: ${amount} ${token}`);
+            return "0x" + Math.random().toString(16).substr(2, 8);
+        }
+    }
+}
+
+// Usage
+const net = new CryptoNetwork();
+const hash = net.transfer(100, "cardamom");
+console.log("Hash:", hash);

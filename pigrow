@@ -1,0 +1,53 @@
+{
+  "networkBoostCode": "CHAIN-GROWTH-V2025-PI-CB-AX14",
+  "protocol": "ProofOfActivityPlus v3.1",
+  "integrations": {
+    "piNetwork": {
+      "apiEndpoint": "https://api.minepi.com/partner/onboarding",
+      "userIncentive": "0.05 PI/day for cross-chain actions",
+      "walletSync": true
+    },
+    "coinbase": {
+      "exchangeListing": true,
+      "fiatOnRamp": "Enabled via Coinbase Wallet",
+      "airdrops": {
+        "initial": "250,000 tokens",
+        "eligibility": "Verified US & EU users"
+      }
+    }
+  },
+  "rewardsEngine": {
+    "stakingYield": "10% APY (base)",
+    "activityMultiplier": "up to 3x based on engagement",
+    "referralBonus": "4% inviter / 4% invitee",
+    "nodeIncentives": {
+      "runTimeBonus": "0.25% per hour active",
+      "uptimeThreshold": "95%"
+    }
+  },
+  "tokenomics": {
+    "totalSupply": 50000000,
+    "circulatingCap": 35000000,
+    "burnMechanism": "1% per transaction (auto burn)",
+    "mintRate": "0.1% per epoch (capped)"
+  },
+  "expansionPlan": {
+    "crossChainSupport": ["BTC", "ETH", "SOL", "PI"],
+    "dAppGrants": "2M tokens yearly",
+    "NFTLayer": "Enabled with gasless minting",
+    "realWorldPartners": [
+      "minepi.com",
+      "coinbase.com",
+      "openai.com"
+    ]
+  },
+  "governance": {
+    "type": "DAO hybrid",
+    "votingToken": "GOV",
+    "proposalRules": {
+      "minStake": 10000,
+      "quorum": "20% of active wallets",
+      "cooldown": "14 days"
+    }
+  }
+}

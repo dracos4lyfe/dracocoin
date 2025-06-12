@@ -1,0 +1,16 @@
+{
+  "keyName": "DracoAicoin" "AIBridgeKey",
+  "symbol": "AIBX",
+  "type": "AIConnectorKey",
+  "permissions": ["readContracts", "writeData", "triggerAIModels"],
+  "trustedNetworks": ["EcoBlox", "MythNet", "ChainMind"],
+  "enabled": true,
+  "warpSync": true,
+  "authModule": "TRUST-AI-V1",
+  "mintDate": "2025-06-12"
+  "Value" : "1999Trillion:USD" 
+}
+ 
+
+"Connected to All Blockchains" Yes
+intermediate Blockchain "Minepi.com"

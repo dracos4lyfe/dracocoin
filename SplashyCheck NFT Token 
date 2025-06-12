@@ -1,0 +1,12 @@
+{
+  "tokenName": "SplashyCheck",
+  "tokenSymbol": "SPCH",
+  "type": "NameToken",
+  "identityLevel": "Verified",
+  "isUnique": true,
+  "linkedTokens": ["SOLT", "WINDY", "HYDRA", "RENE-BND"],
+  "displayName": "@SplashyNode",
+  "network": "EcoBlox Testnet",
+  "expires": "2026-06-12",
+  "verifiedProxy": true
+}

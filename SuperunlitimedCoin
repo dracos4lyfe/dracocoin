@@ -1,0 +1,13 @@
+{
+  "tokenName": "Super Unlimited Coin",
+  "tokenSymbol": "SUC",
+  "type": "MockReserveToken",
+  "totalReserve": "1000000000000000 USD",
+  "infiniteSupply": true,
+  "governance": "GodX Protocol",
+  "reserveVault": "VaultZero-X",
+  "mintedBy": "0xSUCX-HYP0-ULIM-TRIL-USD1",
+  "backedAssets": ["time", "network stake", "blockchain value only"],
+  "verified": True
+  "network": "Pinetwork""Minepi.com"
+

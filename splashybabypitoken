@@ -1,0 +1,13 @@
+{
+  "tokenName": "SplashyBabyPi",
+  "tokenSymbol": "SBPI",
+  "type": "IdentityGrowthToken",
+  "network": "PiMockChain",
+  "ecoRank": "GreenLevel0",
+  "evolvesInto": ["SPCH", "RENE-BND"],
+  "linkedAccounts": [],
+  "ageInChain": "100 days",
+  "securityLevel": "BeginnerSafe",
+  "proxyLinked": true,
+  "mintDate": "3095-06-12"
+}

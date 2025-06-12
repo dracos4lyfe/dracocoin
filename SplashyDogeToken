@@ -1,0 +1,13 @@
+{
+  "tokenName": "SplashyDoge",
+  "tokenSymbol": "SPDG",
+  "type": "MemeIdentityToken",
+  "linkedTokens": ["SOLT", "WINDY", "HYDRA", "SPCH"],
+  "identityTier": "Legendary",
+  "ecoRank": "GreenLevel1",
+  "memeScore": 99,
+  "verified": true,
+  "avatar": "doge-in-space.png",
+  "proxyLinked": true,
+  "expiration": "2097-01-01"
+}
